@@ -1,11 +1,16 @@
-function Layout({ children }) {
+import { NavLink, Outlet } from 'react-router-dom'
+import Header from '../Header'
+import { Pane } from 'evergreen-ui'
+
+function Layout() {
   return (
-    <>
-      <div>Layout</div>
+    <Pane width="100vw" height="100vh">
+      <Header></Header>
       <div>
-        {children}
+
+        <Outlet />
       </div>
-    </>
+    </Pane>
   )
 }
 
