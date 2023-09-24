@@ -7,9 +7,6 @@ function Index() {
   return (
     <>
       <Pane clearfix>
-        <Pane border width={120} height={80} marginRight={16} float="left" />
-        <Pane border="default" width={120} height={80} marginRight={16} float="left" />
-        <Pane border="muted" width={120} height={80} marginRight={16} float="left" />
       </Pane>
     </>
   )
